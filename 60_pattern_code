@@ -1,0 +1,2555 @@
+//////////////////////////////////// JAVA CODE PATTERN NUMBER 1//////////////////////////////////////////
+INPUT IS : 4
+OUTPUT IS : * * * *
+            * * * *
+            * * * *
+            * * * *
+///CODE///
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i=0; i<n; i++){
+            for(int j=1; j<=n; j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    
+}
+
+
+
+//////////////////////////////////////////// JAVA CODE PATTERN NUMBER 2 ///////////////////////////////////////////
+
+INPUT IS : 4
+OUTPUT IS :
+1 2 3 4 
+1 2 3 4 
+1 2 3 4
+1 2 3 4
+
+///CODE ///
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        for(int i=0; i<n; i++){
+            for(int j=1; j<=n; j++){
+                System.out.print(j +" ");
+            }
+            System.out.println();
+        }
+    }
+    
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 3 /////////////////////////////////////////
+
+INPUT IS : 4
+OUTPUT IS :
+*
+* *
+* * *
+* * * *
+
+///CODE///
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        for(int i=0; i<n; i++)
+        {
+            for(int j=0; j<=i; j++)
+            
+            {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 4 /////////////////////////////////////////
+
+INPUT IS : 4
+OUTPUT IS :
+      *
+    * *
+  * * *
+* * * *
+
+///CODE///
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        
+        for(int i=0; i<n; i++)
+        {
+            for(int j=1; j<n-i; j++)
+            
+            {
+                System.out.print("  ");
+                
+            }
+            for(int k=0; k<=i ; k++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 5 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+* * * * *
+*       *
+*       *
+*       *
+* * * * * 
+
+///CODE///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		for(int i=0; i<n; i++){
+		    
+		    if(i==0 || i==n-1){
+		        
+		        for(int j=0; j<n; j++){
+		            System.out.print("* ");
+		        }
+		    }
+		    else{
+		        System.out.print("* ");
+		        for(int j=1; j< n-1; j++){
+		            System.out.print("  ");
+		        }
+		        System.out.print("* ");
+		    }
+		    System.out.println();
+		    
+		    
+		}
+		
+		
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 6 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+*
+ *
+  *
+   *
+    *
+
+///CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+
+		for(int i=0; i<n; i++){
+		   
+		    
+		   for(int j = 0; j< i; j++){
+
+		       System.out.print(" ");
+		   }
+
+		    System.out.print("*");
+
+		    System.out.println();
+		    
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 7 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+
+///CODE///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=0; j<= n-i; j++){
+
+		       System.out.print(" ");
+		       
+		   } 
+		   
+		   for(int k=0 ; k<i ; k++){
+
+		       System.out.print("* ");
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 8 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+* * * * *
+ * * * * 
+  * * *
+   * *
+    *
+
+///CODE///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+
+		for(int i=0; i<n; i++){
+		    
+		    
+		    for(int j=0; j<=i; j++){
+
+		       System.out.print(" ");
+		       
+		   } 
+		   
+		    for(int k=0 ; k<n-i ; k++){
+
+		       System.out.print("* ");
+		   }
+		   
+		   
+		   
+		   
+		   System.out.println();
+		   
+		}
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 9 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+* * * * *
+* * * * 
+* * *
+* *
+*
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int i=0; i<n; i++){
+		    
+		   for(int k=0 ; k<n-i ; k++){
+		       
+		       System.out.print("* ");
+		       
+		   }
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 10 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+* * * * * 
+  * * * *
+    * * * 
+      * *
+        *
+
+///CODE///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int i=0; i<n; i++){
+		    
+		    for(int j=0; j<i; j++){
+		        
+		        System.out.print("  ");
+		        
+		    }
+		    
+		   for(int k=0 ; k<n-i ; k++){
+		       
+		       System.out.print("* ");
+		       
+		   }
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 11 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1
+1 2
+1 2 3 
+1 2 3 4 
+1 2 3 4 5
+
+///CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		    
+		    
+		    
+		   for(int k=1 ; k<=i ; k++){
+		       
+		       System.out.print(k + " ");
+		       
+		   }
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 12 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+
+///CODE///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int count =1;
+		
+		for(int i=1; i<=n; i++){
+		    
+		    
+		    
+		   for(int k=1 ; k<=i ; k++){
+		       
+		       System.out.print(count + " ");
+		       count++;
+		       
+		   }
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 13 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1
+2 1
+3 2 1
+4 3 2 1
+5 4 3 2 1
+
+///CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(int i=1; i<=n; i++){
+		    
+		    
+		    
+		   for(int k=i; k>0 ; k--){
+		       
+		       System.out.print(k+ " ");
+		      
+		   }
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 14 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1 1 1 1 1 
+2 2 2 2 2 
+3 3 3 3 3
+4 4 4 4 4 
+5 5 5 5 5 
+
+///CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(int i=1; i<=n; i++){
+		    
+		    
+		    
+		   for(int k=n; k>0 ; k--){
+		       
+		       System.out.print(i+ " ");
+		      
+		   }
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 15 /////////////////////////////////////////
+
+INPUT IS :
+OUTPUT IS :
+
+A A A A A
+B B B B B
+C C C C C 
+D D D D D
+E E E E E
+
+///CODE///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		char temp = 'A';
+		
+		for(char i=1; i<=n; i++){
+		    
+		    
+		    
+		   for(int k=n; k>0 ; k--){
+		       
+		       System.out.print(temp+ " ");
+		      
+		   }
+		   temp++;
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 16 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+A B C D E 
+A B C D E 
+A B C D E 
+A B C D E 
+A B C D E 
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(char i=1; i<=n; i++){
+		    
+		   char temp = 'A'; 
+		    
+		   for(int k=n; k>0 ; k--){
+		       
+		       System.out.print(temp+ " ");
+		       temp++;
+		   }
+		   
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 17 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+5 4 3 2 1
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(char i=1; i<=n; i++){
+		    
+		   for(int k=n; k>0 ; k--){
+		       
+		       System.out.print(k+ " ");
+		      
+		   }
+		   
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 18 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+ 
+5 5 5 5 5 
+4 4 4 4 4 
+3 3 3 3 3
+2 2 2 2 2 
+1 1 1 1 1 
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(int  i=n; i>0; i--){
+		    
+		   for(int k=n; k>0 ; k--){
+		       
+		       System.out.print(i+ " ");
+		      
+		   }
+		   
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 19 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+E E E E E 
+D D D D D
+C C C C C
+B B B B B
+A A A A A 
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		char temp = 'A';
+		temp += (n-1);
+
+		for(int  i=n; i>0; i--){
+		    
+		   for(int k=n; k>0 ; k--){
+		       
+		       System.out.print(temp+ " ");
+		      
+		   }
+		   temp--;
+		   
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 20 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+E D C B A
+E D C B A
+E D C B A
+E D C B A
+E D C B A
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int  i=n; i>0; i--){
+		    
+		   char temp = 'A';
+		   temp += (n-1);
+		   
+		   for(int k=n; k>0 ; k--){
+		       
+		       System.out.print(temp+ " ");
+		       temp--;
+		   }
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 21 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+A
+B B
+C C C
+D D D D
+E E E E E
+
+/// CODE ////
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		char temp = 'A';
+		
+		for(int  i=0; i<n; i++){
+		    
+		   
+		   for(int k=i; k>=0 ; k--){
+		       
+		       System.out.print(temp+ " ");
+		      
+		   }
+		   
+		    temp++;
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 22 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+A 
+A B 
+A B C
+A B C D 
+A B C D E
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int  i=0; i<n; i++){
+		    
+		   char temp = 'A'; 
+		    
+		   for(int k=i; k>=0 ; k--){
+		       
+		       System.out.print(temp+ " ");
+		       
+		       temp++;
+		   }
+		   
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 23 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1 1 1 1 1
+2 2 2 2 
+3 3 3 
+4 4 
+5
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int  i=1; i<=n; i++){
+		    
+		   for(int k=n; k>=i ; k--){
+		       
+		       System.out.print(i+ " ");
+		       
+		 
+		   }
+		   
+		   
+		    System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 24 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1 2 3 4 5 
+1 2 3 4
+1 2 3 
+1 2
+1
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int  i=0; i<n; i++){
+		    
+		   for(int k=1; k<=n-i ; k++){
+		       
+		       System.out.print(k+ " ");
+		       
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 25 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+A A A A A
+B B B B
+C C C 
+D D 
+E
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		char temp = 'A';
+		
+		for(int  i=0; i<n; i++){
+		    
+		   for(int k=1; k<=n-i ; k++){
+		       
+		       System.out.print(temp+ " ");
+		       
+		   }
+		   temp++;
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 26 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+A B C D E 
+A B C D 
+A B C
+A B 
+A
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(int  i=0; i<n; i++){
+		    
+		   char temp = 'A'; 
+		    
+		   for(int k=1; k<=n-i ; k++){
+		       
+		       System.out.print(temp+ " ");
+		       
+		       temp++;
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 27 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+5 5 5 5 5
+4 4 4 4 
+3 3 3 
+2 2 
+1
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(int  i=n; i>0; i--){
+		    
+		    
+		   for(int k=0; k<i; k++){
+		       
+		       System.out.print(i+ " ");
+		       
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 28 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+5 4 3 2 1
+4 3 2 1
+3 2 1
+2 1
+1
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(int  i=n; i>0; i--){
+		    
+		    
+		   for(int k=i; k>0; k--){
+		      
+		       System.out.print(k+ " ");
+		       
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 29 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+5 4 3 2 1
+5 4 3 2 
+5 4 3
+5 4
+5
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+		for(int  i=1; i<=n; i++){
+		    
+		    
+		   for(int k=n; k>=i; k--){
+		      
+		       System.out.print(k+ " ");
+		       
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 30 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+E D C B A
+E D C B
+E D C
+E D
+E
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		for(int  i=1; i<=n; i++){
+		    
+		   char temp = 'A';
+		   temp += (n-1);
+		
+		   for(int k=n; k>=i; k--){
+		      
+		       System.out.print(temp+ " ");
+		       temp--;
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 31 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=0; j<= n-i; j++){
+
+		       System.out.print(" ");
+		       
+		   } 
+		   
+		   for(int k=0 ; k<i ; k++){
+
+		       System.out.print(i+" ");
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 32 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=0; j<= n-i; j++){
+
+		       System.out.print(" ");
+		       
+		   } 
+		   
+		   for(int k=1 ; k<=i ; k++){
+
+		       System.out.print(k+" ");
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 33 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    A
+   B B
+  C C C
+ D D D D
+E E E E E
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		char temp = 'A';
+
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=0; j<= n-i; j++){
+
+		       System.out.print(" ");
+		       
+		   } 
+		   
+		   for(int k=1 ; k<=i ; k++){
+
+		       System.out.print(temp+" ");
+		   }
+		   
+		   temp++;
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 34 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+ 5 5 5 5 5
+   4 4 4 4
+     3 3 3
+       2 2
+         1
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+
+		for(int i=n; i>0; i--){
+		   
+		   for(int j=0; j<n-i; j++){
+
+		       System.out.print(" ");
+		       
+		   } 
+		   
+		   for(int k=0 ; k<i ; k++){
+
+		       System.out.print(i);
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 35 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+12345
+ 1234
+  123
+   12
+    1
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+
+		for(int i=n; i>0; i--){
+		   
+		   for(int j=0; j<n-i; j++){
+
+		       System.out.print(" ");
+		       
+		   } 
+		   
+		   for(int k=1 ; k<=i ; k++){
+
+		       System.out.print(k);
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 36 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+ EEEEE
+ DDDD
+ CCC
+ BB
+ A
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+        char temp = 'A';
+        temp +=(n-1);
+		for(int i=n; i>0; i--){
+		   
+		   
+		   for(int k=1 ; k<=i ; k++){
+
+		       System.out.print(temp);
+		   }
+		   
+		   temp--;
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 37 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1
+22
+333
+4444
+55555
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   
+		   for(int k=1 ; k<=i ; k++){
+
+		       System.out.print(i);
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 38 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+ABCDE
+ ABCD
+  ABC
+   AB
+    A
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		    
+		   for(int j=1; j<=i; j++){
+		       
+		       System.out.print(" ");
+		   }
+		   
+		   char temp='A';
+		   for(int k=0; k<=n-i ; k++){
+
+		       System.out.print(temp);
+		       temp++;
+		   }
+		   
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 39 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+EEEEE
+ DDDD
+  CCC
+   BB
+    A
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		char temp='A';
+		temp += (n-1);
+		for(int i=1; i<=n; i++){
+		    
+		   for(int j=1; j<=i; j++){
+		       
+		       System.out.print(" ");
+		   }
+		   
+		   
+		   for(int k=0; k<=n-i ; k++){
+
+		       System.out.print(temp);
+		      
+		   }
+		    temp--;
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 40 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+*
+***
+*****
+*******
+*********
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		for(int i=1; i<=n; i++){
+		    
+		   
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print("*");
+		      
+		   }
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 41 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    *
+   ***
+  *****
+ *******
+*********
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=i; j<n; j++){
+		       
+		       System.out.print(" ");
+		   }
+		   
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print("*");
+		      
+		   }
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 42 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1
+222
+33333
+4444444
+555555555
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print(i);
+		      
+		   }
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 43 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+     1
+    222
+   33333
+  4444444
+ 555555555
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=i; j<n; j++){
+		       
+		       System.out.print(" ");
+		   }
+		  
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print(i);
+		      
+		   }
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 44 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+A
+BBB
+CCCCC
+DDDDDDD
+E E E E E E E E E
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+        char temp='A';
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print(temp);
+		      
+		   }
+		   temp++;
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 45 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    A
+   BBB
+  CCCCC
+ DDDDDDD
+EEEEEEEEE
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		char temp='A';
+		
+
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=i; j<n; j++){
+		       
+		       System.out.print(" ");
+		   }
+		  
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print(temp);
+		      
+		   }
+		   temp++;
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 46 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+A
+CCC
+EEEEE
+GGGGGGG
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+        char temp='A';
+		int n = sc.nextInt();
+		
+		for(int i=1; i<n; i++){
+		   
+		   
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print(temp);
+		      
+		   }
+		   temp+=2;
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 47 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1
+123
+12345
+1234567
+123456789
+
+/// CODE///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+        
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print(k);
+		      
+		   }
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 48 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    1
+   123
+  12345
+ 1234567
+123456789
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=i; j<n; j++){
+		       
+		       System.out.print(" ");
+		   }
+		  
+		   for(int k=1; k<i*2 ; k++){
+
+		       System.out.print(k);
+		      
+		   }
+		   
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 49 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+1
+21
+321
+4321
+54321
+
+/// CODE ///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+        
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   
+		   for(int k=i; k>=1 ; k--){
+
+		       System.out.print(k);
+		      
+		   }
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 50 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+A
+BA
+CBA
+DCBA
+EDCBA
+
+/// CODE///
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+        
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   char temp = 'A';
+		   temp += (i-1);
+		   for(int k=i; k>=1 ; k--){
+
+		       System.out.print(temp);
+		      temp--;
+		   }
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 51 /////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    A
+   B A
+  C B A
+ D C B A
+E D C B A
+
+/// CODE ///
+
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+		
+		for(int i=1; i<=n; i++){
+		   
+		   for(int j=i; j<n; j++){
+		       
+		       System.out.print(" ");
+		   }
+		   
+		   char temp = 'A';
+		   temp += (i-1);
+		   for(int k=1; k<=i; k++){
+
+		       System.out.print(temp+" ");
+		      temp--;
+		   }
+		   
+		    
+		   System.out.println();
+		   
+		}
+		
+		
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 52/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+    0
+   101
+  21012
+ 3210123
+432101234
+
+///CODE///
+
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   int n = sc.nextInt();
+	   for(int i=0; i<n;i++){
+	       
+	       for(int j=n-1; j>i; j--){
+	           System.out.print("  ");
+	       }
+	       
+	       for(int k=i; k > 0; k--){
+	           System.out.print(k+" ");
+	       }
+	       
+	       for(int a=0; a<=i; a++){
+	           System.out.print(a+" ");
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	    
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 53/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+     A
+    BAB
+   CBABC
+  DCBABCD
+ EDCBABCDE
+
+
+///CODE///
+
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	   int n = sc.nextInt();
+	   
+	   for(int i=0; i<n;i++){
+	       
+	       for(int j=n-1; j>i; j--){
+	           System.out.print("  ");
+	       }
+	       
+	       for(int k=i; k > 0; k--){
+	           char c = 'A';
+	           c += k;
+	           System.out.print(c+" ");
+	       }
+	       
+	       for(int a=0; a<=i; a++){
+	           char c = 'A';
+	           c += a;
+	           System.out.print(c+" ");
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	    
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 54/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    1
+   121
+  12321
+ 1234321
+123454321
+
+///CODE///
+
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	   int n = sc.nextInt();
+	   
+	   for(int i=0; i<n;i++){
+	       
+	       for(int j=n-1; j>i; j--){
+	           System.out.print("  ");
+	       }
+	       
+	       for(int k=1; k <= i; k++){
+	          
+	           System.out.print(k+" ");
+	       }
+	       
+	       for(int a=i+1; a>0; a--){
+	           
+	           System.out.print(a+" ");
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	    
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 55/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+     A
+    ABA
+   ABCBA
+  ABCDCBA
+ ABCDEDCBA
+ 
+ /// CODE ///
+ 
+ 
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	   int n = sc.nextInt();
+	   
+	   for(int i=0; i<n;i++){
+	       
+	       for(int j=n-1; j>i; j--){
+	           System.out.print("  ");
+	       }
+	       
+	       for(int k=1; k <= i; k++){
+	           char c='A';
+	             c += (k-1);
+	           System.out.print(c+" ");
+	         
+	       }
+	       
+	       for(int a=i+1; a>0; a--){
+	           char c = 'A';
+	           c += (a-1);
+	           System.out.print(c+" ");
+	           
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	    
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 56/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+    
+	1
+   1 2
+  1 2 3
+ 1 2 3 4
+1 2 3 4 5
+ 1 2 3 4
+  1 2 3
+   1 2
+    1
+	
+/// CODE ///
+
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	   int n = sc.nextInt();
+	   
+	   for(int i=1; i<=n ; i++){
+	       
+	       for(int j=n; j > i; j--){
+	           
+	           System.out.print(" ");
+	           
+	       }
+	       
+	       for(int k=1; k<=i; k++){
+	           
+	           System.out.print(k+" ");
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	   
+	   for(int i=n; i>1;i--){
+	       
+	       for(int k=i; k<=n;k++){
+	           
+	           System.out.print(" ");
+	       }
+	       
+	      for(int j=1; j < i;j++){
+	          
+	          System.out.print(j+" ");
+	      } 
+	      
+	      System.out.println();
+	      
+	   }
+	    
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 57/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+	
+/// CODE ///
+
+
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	   int n = sc.nextInt();
+	   
+	   for(int i=1; i<=n ; i++){
+	       
+	       for(int j=n; j > i; j--){
+	           
+	           System.out.print(" ");
+	           
+	       }
+	       
+	       for(int k=1; k<=i; k++){
+	           
+	           System.out.print("* ");
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	   
+	   for(int i=n; i>1;i--){
+	       
+	       for(int k=i; k<=n;k++){
+	           
+	           System.out.print(" ");
+	       }
+	       
+	      for(int j=1; j < i;j++){
+	          
+	          System.out.print("* ");
+	      } 
+	      
+	      System.out.println();
+	      
+	   }
+	    
+	}
+}
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 58/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+5
+54
+543
+5432
+54321
+5432
+543
+54
+5
+
+///CODE///
+
+
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	   int n = sc.nextInt();
+	   
+	   for(int i=0; i<n ; i++){
+	       
+	       for(int k=n; k>n-i; k--){
+	           
+	           System.out.print(k);
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	   
+	   for(int i=0; i<n;i++){
+	       
+	       
+	      for(int j=n; j >i;j--){
+	          
+	          System.out.print(j);
+	      } 
+	      
+	      System.out.println();
+	      
+	   }
+	    
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 59/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+5
+44
+333
+2222
+11111
+2222
+333
+44
+5
+
+/// CODE ///
+
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	   int n = sc.nextInt();
+	   
+	   for(int i=n; i>0 ; i--){
+	       
+	       for(int k=n; k>=i; k--){
+	           
+	           System.out.print(i);
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	   
+	   for(int i=2; i<=n;i++){
+	       
+	       
+	      for(int j=n; j >=i;j--){
+	          
+	          System.out.print(i);
+	      } 
+	      
+	      System.out.println();
+	      
+	   }
+	    
+	}
+}
+
+
+////////////////////////////////////////// JAVA CODE PATTERN NUMBER 60/////////////////////////////////////////
+
+INPUT IS : 5
+OUTPUT IS :
+
+E
+ED
+EDC
+EDCB
+EDCBA
+EDCB
+EDC
+ED
+E
+
+/// CODE ///
+
+
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	   
+	   Scanner sc = new Scanner(System.in);
+	   
+	   int n = sc.nextInt();
+	   
+	   for(int i=n; i>0 ; i--){
+	       
+	       for(int k=n; k>=i; k--){
+	           char c = 'A';
+	           c += (k-1);
+	           System.out.print(c);
+	       }
+	       
+	       System.out.println();
+	       
+	   }
+	   
+	   for(int i=2; i<=n;i++){
+	       
+	       
+	      for(int j=n; j >=i;j--){
+	      char c = 'A';
+	           c += (j-1);
+	          System.out.print(c);
+	      } 
+	      
+	      System.out.println();
+	      
+	   }
+	    
+	}
+}
+
